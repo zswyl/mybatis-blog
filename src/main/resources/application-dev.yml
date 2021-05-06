@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/myblog?serverTimezone=Asia/Shanghai&useUnicode=true&allowPublicKeyRetrieval=true&characterEncoding=utf8&useSSL=false
+    username: root
+    password: zsw520.z
+
+logging:
+  level:
+    root: info
+    com.star: debug
+  file:
+    name: log/blog-dev.log
+
+mybatis:
+  type-aliases-package: com.jiangqi.entity
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+
+

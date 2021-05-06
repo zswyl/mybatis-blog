@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ca79b4c8-0f0f-4a08-94f7-39a8f8d41b65" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jiangqi/util/MD5Utils.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/mapper/FriendLinkDao.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/mapper/PictureDao.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/mapper/MessageDao.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/mapper/CommentDao.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/mapper/UserDao.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/mapper/TypeDao.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/mapper/BlogDao.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jiangqi/service/impl/CommentServiceImpl.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jiangqi/service/impl/BlogServiceImpl.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jiangqi/service/CommentService.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jiangqi/service/BlogService.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jiangqi/dao/UserDao.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jiangqi/dao/TypeDao.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jiangqi/dao/PictureDao.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jiangqi/dao/MessageDao.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jiangqi/dao/FriendLinkDao.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jiangqi/dao/CommentDao.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jiangqi/dao/BlogDao.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jiangqi/controller/admin/BlogController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jiangqi/controller/admin/FriendController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jiangqi/controller/admin/LoginController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jiangqi/controller/admin/PictureController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jiangqi/controller/admin/TypeController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/templates/index.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jiangqi/service/impl/MessageServiceImpl.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jiangqi/service/MessageService.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jiangqi/service/PictureService.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jiangqi/service/impl/FriendLinkServiceImpl.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jiangqi/service/FriendLinkService.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jiangqi/hander/ControllerExceptionHandler.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jiangqi/aspect/LogAspect.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jiangqi/service/impl/TypeServiceImpl.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jiangqi/service/TypeService.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jiangqi/service/UserService.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jiangqi/service/impl/UserServiceImpl.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jiangqi/controller/AboutShowController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jiangqi/controller/ArchiveShowController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jiangqi/controller/CommentController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jiangqi/controller/FriendsShowController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jiangqi/controller/IndexController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jiangqi/controller/MessageController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jiangqi/controller/MusicShowController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jiangqi/controller/PictureShowController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jiangqi/controller/TypeShowController.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\tools\repository" />
+        <option name="mavenHome" value="F:/plug/Apache-maven-3.6.3" />
+        <option name="printErrorStackTraces" value="true" />
+        <option name="usePluginRegistry" value="true" />
+        <option name="userSettingsFile" value="F:\plug\Apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="autoDetectCompiler" value="false" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="generatedSourcesFolder" value="IGNORE" />
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+        <option name="updateFoldersOnImportPhase" value="generate-sources" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1rCQRUzXFDXKnfrLUbaTARICSSH" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\IDEA_Workspace\mybatis-blog\src\main\resources\static\images" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.jiangqi" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\IDEA_Workspace\mybatis-blog\src\main\resources\templates" />
+      <recent name="F:\IDEA_Workspace\mybatis-blog\src\main\resources\static" />
+      <recent name="F:\IDEA_Workspace\mybatis-blog\src\main\resources\static\images" />
+      <recent name="F:\IDEA_Workspace\mybatis-blog\src\main\resources" />
+      <recent name="F:\IDEA_Workspace\mybatis-blog" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MybatisBlogApplication">
+    <configuration name="MD5Utils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiangqi.util.MD5Utils" />
+      <module name="mybatis-blog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jiangqi.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisBlogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mybatis-blog" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jiangqi.MybatisBlogApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MD5Utils" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ca79b4c8-0f0f-4a08-94f7-39a8f8d41b65" name="Default Changelist" comment="" />
+      <created>1618477583972</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618477583972</updated>
+      <workItem from="1618477587739" duration="1990000" />
+      <workItem from="1618536915459" duration="2228000" />
+      <workItem from="1618539324118" duration="1672000" />
+      <workItem from="1618904652137" duration="598000" />
+      <workItem from="1619098397291" duration="7728000" />
+      <workItem from="1619141956451" duration="616000" />
+      <workItem from="1619142604973" duration="1568000" />
+      <workItem from="1619269994216" duration="7489000" />
+      <workItem from="1619334023714" duration="6684000" />
+      <workItem from="1619354514642" duration="2185000" />
+      <workItem from="1619357511004" duration="2284000" />
+      <workItem from="1619532097579" duration="2261000" />
+      <workItem from="1619614539012" duration="8257000" />
+      <workItem from="1619765433230" duration="1205000" />
+      <workItem from="1620024631025" duration="4167000" />
+      <workItem from="1620300294621" duration="1976000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="499" y="187" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1619104134370">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="499" y="187" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.864/-1920.0.1920.1080@0.0.1536.864" timestamp="1619102334796" />
+    <state x="499" y="187" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.864@0.0.1536.864" timestamp="1619104134370" />
+    <state x="535" y="271" width="465" height="323" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1618539985416">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="535" y="271" width="465" height="323" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.864/-1920.0.1920.1080@0.0.1536.864" timestamp="1618539985416" />
+    <state x="499" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1619274952464">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="499" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864/-1920.0.1920.1080@0.0.1536.864" timestamp="1619274952464" />
+    <state x="518" y="272" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1619142199612">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="518" y="272" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.864/-1920.0.1920.1080@0.0.1536.864" timestamp="1619142199612" />
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1619618032493">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864/-1920.0.1920.1080@0.0.1536.864" timestamp="1619618032493" />
+    <state width="1491" height="2" key="GridCell.Tab.0.bottom" timestamp="1620312896516">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1491" height="2" key="GridCell.Tab.0.bottom/0.0.1536.864/-1920.0.1920.1080@0.0.1536.864" timestamp="1620301628034" />
+    <state width="1491" height="2" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1620312896516" />
+    <state width="1491" height="2" key="GridCell.Tab.0.center" timestamp="1620312896515">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1491" height="2" key="GridCell.Tab.0.center/0.0.1536.864/-1920.0.1920.1080@0.0.1536.864" timestamp="1620301628034" />
+    <state width="1491" height="2" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1620312896515" />
+    <state width="1491" height="2" key="GridCell.Tab.0.left" timestamp="1620312896515">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1491" height="2" key="GridCell.Tab.0.left/0.0.1536.864/-1920.0.1920.1080@0.0.1536.864" timestamp="1620301628033" />
+    <state width="1491" height="2" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1620312896515" />
+    <state width="1491" height="2" key="GridCell.Tab.0.right" timestamp="1620312896515">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1491" height="2" key="GridCell.Tab.0.right/0.0.1536.864/-1920.0.1920.1080@0.0.1536.864" timestamp="1620301628034" />
+    <state width="1491" height="2" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1620312896515" />
+    <state width="1491" height="2" key="GridCell.Tab.1.bottom" timestamp="1620312896516">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1491" height="2" key="GridCell.Tab.1.bottom/0.0.1536.864/-1920.0.1920.1080@0.0.1536.864" timestamp="1620301628034" />
+    <state width="1491" height="2" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1620312896516" />
+    <state width="1491" height="2" key="GridCell.Tab.1.center" timestamp="1620312896516">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1491" height="2" key="GridCell.Tab.1.center/0.0.1536.864/-1920.0.1920.1080@0.0.1536.864" timestamp="1620301628034" />
+    <state width="1491" height="2" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1620312896516" />
+    <state width="1491" height="2" key="GridCell.Tab.1.left" timestamp="1620312896516">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1491" height="2" key="GridCell.Tab.1.left/0.0.1536.864/-1920.0.1920.1080@0.0.1536.864" timestamp="1620301628034" />
+    <state width="1491" height="2" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1620312896516" />
+    <state width="1491" height="2" key="GridCell.Tab.1.right" timestamp="1620312896516">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1491" height="2" key="GridCell.Tab.1.right/0.0.1536.864/-1920.0.1920.1080@0.0.1536.864" timestamp="1620301628034" />
+    <state width="1491" height="2" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1620312896516" />
+    <state x="299" y="87" key="Maven.ArtifactSearchDialog" timestamp="1619103727623">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="299" y="87" key="Maven.ArtifactSearchDialog/0.0.1536.864@0.0.1536.864" timestamp="1619103727623" />
+    <state x="349" y="270" key="MavenRunHelper.GoalEditor" timestamp="1619532807274">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="349" y="270" key="MavenRunHelper.GoalEditor/0.0.1536.864/-1920.0.1920.1080@0.0.1536.864" timestamp="1619532807274" />
+    <state x="262" y="74" key="SettingsEditor" timestamp="1619142576093">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="262" y="74" key="SettingsEditor/0.0.1536.864/-1920.0.1920.1080@0.0.1536.864" timestamp="1619142576093" />
+    <state x="428" y="145" width="678" height="574" key="find.popup" timestamp="1619342301449">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="428" y="145" width="678" height="574" key="find.popup/0.0.1536.864/-1920.0.1920.1080@0.0.1536.864" timestamp="1619342301449" />
+    <state x="428" y="145" width="678" height="574" key="find.popup/0.0.1536.864@0.0.1536.864" timestamp="1619104617474" />
+  </component>
+  <component name="ideajad">
+    <property name="annotate" value="false" />
+    <property name="annotateFully" value="false" />
+    <property name="braces" value="false" />
+    <property name="clear" value="false" />
+    <property name="confirmNavigationTriggeredDecompile" value="true" />
+    <property name="dead" value="true" />
+    <property name="defaultInitializers" value="false" />
+    <property name="dissassemblerOnly" value="false" />
+    <property name="fieldsFirst" value="true" />
+    <property name="fileExtension" value="java" />
+    <property name="fullyQualifiedNames" value="false" />
+    <property name="indentation" value="4" />
+    <property name="intRadix" value="10" />
+    <property name="lineNumbersAsComments" value="true" />
+    <property name="longRadix" value="10" />
+    <property name="maxStringLength" value="64" />
+    <property name="nocast" value="false" />
+    <property name="noclass" value="false" />
+    <property name="nocode" value="false" />
+    <property name="noconv" value="false" />
+    <property name="noctor" value="false" />
+    <property name="nodos" value="false" />
+    <property name="nofd" value="false" />
+    <property name="noinner" value="false" />
+    <property name="nolvt" value="false" />
+    <property name="nonlb" value="false" />
+    <property name="outputDirectory" value="" />
+    <property name="packFields" value="3" />
+    <property name="packImports" value="7" />
+    <property name="prefixNumericalClasses" value="_cls" />
+    <property name="prefixNumericalFields" value="_fld" />
+    <property name="prefixNumericalLocals" value="_lcl" />
+    <property name="prefixNumericalMethods" value="_mth" />
+    <property name="prefixNumericalParameters" value="_prm" />
+    <property name="prefixUnusedExceptions" value="_ex" />
+    <property name="readonly" value="false" />
+    <property name="safe" value="false" />
+    <property name="sort" value="false" />
+    <property name="spaceAfterKeyword" value="false" />
+    <property name="splitStringsAtNewline" value="false" />
+    <property name="useTabs" value="false" />
+  </component>
+</project>

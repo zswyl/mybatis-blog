@@ -1,0 +1,434 @@
+2021-04-27 22:07:41.662  INFO 10012 --- [restartedMain] com.jiangqi.MybatisBlogApplication       : Starting MybatisBlogApplication using Java 1.8.0_251 on jiangqi with PID 10012 (F:\IDEA_Workspace\mybatis-blog\target\classes started by 江七 in F:\IDEA_Workspace\mybatis-blog)
+2021-04-27 22:07:41.678  INFO 10012 --- [restartedMain] com.jiangqi.MybatisBlogApplication       : The following profiles are active: dev
+2021-04-27 22:07:41.801  INFO 10012 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-27 22:07:41.801  INFO 10012 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-27 22:07:44.493  INFO 10012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-27 22:07:44.509  INFO 10012 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-27 22:07:44.509  INFO 10012 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-27 22:07:44.509  INFO 10012 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2021-04-27 22:07:44.509  INFO 10012 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-04-27 22:07:44.509  INFO 10012 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-04-27 22:07:44.509  INFO 10012 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-04-27 22:07:44.764  INFO 10012 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-27 22:07:44.764  INFO 10012 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2963 ms
+2021-04-27 22:07:45.758  INFO 10012 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-27 22:07:45.903  INFO 10012 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-04-27 22:07:46.583  INFO 10012 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-27 22:07:46.626  INFO 10012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-27 22:07:46.626  INFO 10012 --- [restartedMain] com.jiangqi.MybatisBlogApplication       : Started MybatisBlogApplication in 5.726 seconds (JVM running for 7.13)
+2021-04-27 22:08:04.989  INFO 4032 --- [restartedMain] com.jiangqi.MybatisBlogApplication       : Starting MybatisBlogApplication using Java 1.8.0_251 on jiangqi with PID 4032 (F:\IDEA_Workspace\mybatis-blog\target\classes started by 江七 in F:\IDEA_Workspace\mybatis-blog)
+2021-04-27 22:08:04.992  INFO 4032 --- [restartedMain] com.jiangqi.MybatisBlogApplication       : The following profiles are active: dev
+2021-04-27 22:08:05.062  INFO 4032 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-27 22:08:05.062  INFO 4032 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-27 22:08:06.281  INFO 4032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-27 22:08:06.296  INFO 4032 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-27 22:08:06.296  INFO 4032 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-27 22:08:06.296  INFO 4032 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2021-04-27 22:08:06.296  INFO 4032 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-04-27 22:08:06.296  INFO 4032 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-04-27 22:08:06.296  INFO 4032 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-04-27 22:08:06.375  INFO 4032 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-27 22:08:06.375  INFO 4032 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1311 ms
+2021-04-27 22:08:06.992  INFO 4032 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-27 22:08:07.086  INFO 4032 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-04-27 22:08:07.399  INFO 4032 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-27 22:08:07.416  INFO 4032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-27 22:08:07.432  INFO 4032 --- [restartedMain] com.jiangqi.MybatisBlogApplication       : Started MybatisBlogApplication in 3.019 seconds (JVM running for 3.779)
+2021-04-27 22:08:38.736  INFO 4032 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-27 22:08:38.736  INFO 4032 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-27 22:08:38.737  INFO 4032 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-04-27 22:08:38.797  INFO 4032 --- [http-nio-8080-exec-1] com.jiangqi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.jiangqi.controller.IndexController.index', args=[{}, 1, {}]}
+2021-04-27 22:08:38.835  INFO 4032 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-27 22:08:39.338  INFO 4032 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-27 22:08:39.476  INFO 4032 --- [http-nio-8080-exec-1] com.jiangqi.aspect.LogAspect             : Result : index
+2021-04-27 22:08:59.727  INFO 4032 --- [http-nio-8080-exec-7] com.jiangqi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/footer/blogmessage', ip='127.0.0.1', classMethod='com.jiangqi.controller.IndexController.blogMessage', args=[{}]}
+2021-04-27 22:08:59.759  INFO 4032 --- [http-nio-8080-exec-7] com.jiangqi.aspect.LogAspect             : Result : index :: blogMessage
+2021-04-27 22:09:08.414  INFO 4032 --- [http-nio-8080-exec-3] com.jiangqi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.jiangqi.controller.IndexController.index', args=[{}, 1, {}]}
+2021-04-27 22:09:08.419  INFO 4032 --- [http-nio-8080-exec-3] com.jiangqi.aspect.LogAspect             : Result : index
+2021-04-27 22:09:10.542  INFO 4032 --- [http-nio-8080-exec-8] com.jiangqi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/footer/blogmessage', ip='127.0.0.1', classMethod='com.jiangqi.controller.IndexController.blogMessage', args=[{}]}
+2021-04-27 22:09:10.547  INFO 4032 --- [http-nio-8080-exec-8] com.jiangqi.aspect.LogAspect             : Result : index :: blogMessage
+2021-04-27 22:10:15.723  INFO 4032 --- [http-nio-8080-exec-8] com.jiangqi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/types/-1', ip='127.0.0.1', classMethod='com.jiangqi.controller.TypeShowController.types', args=[1, -1, {}]}
+2021-04-27 22:10:15.740  INFO 4032 --- [http-nio-8080-exec-8] com.jiangqi.aspect.LogAspect             : Result : types
+2021-04-27 22:10:36.790  INFO 4032 --- [http-nio-8080-exec-2] com.jiangqi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/footer/blogmessage', ip='127.0.0.1', classMethod='com.jiangqi.controller.IndexController.blogMessage', args=[{}]}
+2021-04-27 22:10:36.797  INFO 4032 --- [http-nio-8080-exec-2] com.jiangqi.aspect.LogAspect             : Result : index :: blogMessage
+2021-04-27 22:11:19.900  INFO 4032 --- [http-nio-8080-exec-7] com.jiangqi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/blog/3', ip='127.0.0.1', classMethod='com.jiangqi.controller.IndexController.blog', args=[3, {}]}
+2021-04-27 22:11:20.014  INFO 4032 --- [http-nio-8080-exec-7] com.jiangqi.aspect.LogAspect             : Result : blog
+2021-04-27 22:11:38.960  INFO 4032 --- [http-nio-8080-exec-9] com.jiangqi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.jiangqi.controller.ArchiveShowController.archive', args=[{}]}
+2021-04-27 22:11:38.965  INFO 4032 --- [http-nio-8080-exec-9] com.jiangqi.aspect.LogAspect             : Result : archives
+2021-04-27 22:11:39.082  INFO 4032 --- [http-nio-8080-exec-6] com.jiangqi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/footer/blogmessage', ip='127.0.0.1', classMethod='com.jiangqi.controller.IndexController.blogMessage', args=[{}]}
+2021-04-27 22:11:39.090  INFO 4032 --- [http-nio-8080-exec-6] com.jiangqi.aspect.LogAspect             : Result : index :: blogMessage
+2021-04-27 22:11:41.156  INFO 4032 --- [http-nio-8080-exec-3] com.jiangqi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/footer/blogmessage', ip='127.0.0.1', classMethod='com.jiangqi.controller.IndexController.blogMessage', args=[{}]}
+2021-04-27 22:11:41.161  INFO 4032 --- [http-nio-8080-exec-3] com.jiangqi.aspect.LogAspect             : Result : index :: blogMessage
+2021-04-27 22:13:37.089  INFO 4032 --- [http-nio-8080-exec-2] com.jiangqi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/blog/3', ip='127.0.0.1', classMethod='com.jiangqi.controller.IndexController.blog', args=[3, {}]}
+2021-04-27 22:13:37.100  INFO 4032 --- [http-nio-8080-exec-2] com.jiangqi.aspect.LogAspect             : Result : blog
+2021-04-27 22:13:58.363  INFO 4032 --- [http-nio-8080-exec-1] com.jiangqi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/footer/blogmessage', ip='127.0.0.1', classMethod='com.jiangqi.controller.IndexController.blogMessage', args=[{}]}
+2021-04-27 22:13:58.367  INFO 4032 --- [http-nio-8080-exec-1] com.jiangqi.aspect.LogAspect             : Result : index :: blogMessage
+2021-04-27 22:14:51.121  INFO 4032 --- [http-nio-8080-exec-8] com.jiangqi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/blog/3', ip='127.0.0.1', classMethod='com.jiangqi.controller.IndexController.blog', args=[3, {}]}
+2021-04-27 22:14:51.168  INFO 4032 --- [http-nio-8080-exec-8] com.jiangqi.aspect.LogAspect             : Result : blog
+2021-04-27 22:15:01.504  INFO 4032 --- [http-nio-8080-exec-4] com.jiangqi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/blog/2', ip='127.0.0.1', classMethod='com.jiangqi.controller.IndexController.blog', args=[2, {}]}
+2021-04-27 22:15:01.526  INFO 4032 --- [http-nio-8080-exec-4] com.jiangqi.aspect.LogAspect             : Result : blog
+2021-04-27 22:15:12.388  INFO 4032 --- [http-nio-8080-exec-7] com.jiangqi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/footer/blogmessage', ip='127.0.0.1', classMethod='com.jiangqi.controller.IndexController.blogMessage', args=[{}]}
+2021-04-27 22:15:12.394  INFO 4032 --- [http-nio-8080-exec-7] com.jiangqi.aspect.LogAspect             : Result : index :: blogMessage
+2021-04-27 22:15:12.674  INFO 4032 --- [http-nio-8080-exec-9] com.jiangqi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/footer/blogmessage', ip='127.0.0.1', classMethod='com.jiangqi.controller.IndexController.blogMessage', args=[{}]}
+2021-04-27 22:15:12.679  INFO 4032 --- [http-nio-8080-exec-9] com.jiangqi.aspect.LogAspect             : Result : index :: blogMessage
+2021-04-27 22:15:59.784  INFO 4032 --- [http-nio-8080-exec-4] com.jiangqi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/blog/2', ip='127.0.0.1', classMethod='com.jiangqi.controller.IndexController.blog', args=[2, {}]}
+2021-04-27 22:15:59.803  INFO 4032 --- [http-nio-8080-exec-4] com.jiangqi.aspect.LogAspect             : Result : blog
+2021-04-27 22:16:06.715  INFO 4032 --- [http-nio-8080-exec-3] com.jiangqi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/music', ip='127.0.0.1', classMethod='com.jiangqi.controller.MusicShowController.about', args=[]}
+2021-04-27 22:16:06.720  INFO 4032 --- [http-nio-8080-exec-3] com.jiangqi.aspect.LogAspect             : Result : music
+2021-04-27 22:17:11.145  INFO 4032 --- [http-nio-8080-exec-2] com.jiangqi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/music', ip='127.0.0.1', classMethod='com.jiangqi.controller.MusicShowController.about', args=[]}
+2021-04-27 22:17:11.145  INFO 4032 --- [http-nio-8080-exec-2] com.jiangqi.aspect.LogAspect             : Result : music
+2021-04-27 22:17:14.914  INFO 4032 --- [http-nio-8080-exec-5] com.jiangqi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/types/-1', ip='127.0.0.1', classMethod='com.jiangqi.controller.TypeShowController.types', args=[1, -1, {}]}
+2021-04-27 22:17:14.917  INFO 4032 --- [http-nio-8080-exec-5] com.jiangqi.aspect.LogAspect             : Result : types
+2021-04-27 22:17:32.466  INFO 4032 --- [http-nio-8080-exec-8] com.jiangqi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/footer/blogmessage', ip='127.0.0.1', classMethod='com.jiangqi.controller.IndexController.blogMessage', args=[{}]}
+2021-04-27 22:17:32.476  INFO 4032 --- [http-nio-8080-exec-8] com.jiangqi.aspect.LogAspect             : Result : index :: blogMessage
+2021-04-27 22:17:34.735  INFO 4032 --- [http-nio-8080-exec-7] com.jiangqi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/message', ip='127.0.0.1', classMethod='com.jiangqi.controller.MessageController.message', args=[]}
+2021-04-27 22:17:34.738  INFO 4032 --- [http-nio-8080-exec-7] com.jiangqi.aspect.LogAspect             : Result : message
+2021-04-27 22:17:37.451  INFO 4032 --- [http-nio-8080-exec-1] com.jiangqi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/picture', ip='127.0.0.1', classMethod='com.jiangqi.controller.PictureShowController.friends', args=[{}]}
+2021-04-27 22:17:37.470  INFO 4032 --- [http-nio-8080-exec-1] com.jiangqi.aspect.LogAspect             : Result : picture
+2021-04-27 22:17:53.252  INFO 4032 --- [http-nio-8080-exec-9] com.jiangqi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/footer/blogmessage', ip='127.0.0.1', classMethod='com.jiangqi.controller.IndexController.blogMessage', args=[{}]}
+2021-04-27 22:17:53.256  INFO 4032 --- [http-nio-8080-exec-9] com.jiangqi.aspect.LogAspect             : Result : index :: blogMessage
+2021-04-27 22:17:53.276  INFO 4032 --- [http-nio-8080-exec-1] com.jiangqi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/messagecomment', ip='127.0.0.1', classMethod='com.jiangqi.controller.MessageController.messages', args=[{}]}
+2021-04-27 22:17:53.278  INFO 4032 --- [http-nio-8080-exec-1] com.jiangqi.aspect.LogAspect             : Result : message::messageList
+2021-04-27 22:17:55.920  INFO 4032 --- [http-nio-8080-exec-5] com.jiangqi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/footer/blogmessage', ip='127.0.0.1', classMethod='com.jiangqi.controller.IndexController.blogMessage', args=[{}]}
+2021-04-27 22:17:55.932  INFO 4032 --- [http-nio-8080-exec-5] com.jiangqi.aspect.LogAspect             : Result : index :: blogMessage
+2021-04-27 22:18:20.996  INFO 4032 --- [http-nio-8080-exec-6] com.jiangqi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/message', ip='127.0.0.1', classMethod='com.jiangqi.controller.MessageController.post', args=[Message{id=null, nickname='江七', email='1947838910@qq.com', content='案说法', avatar='null', createTime=null, parentMessageId=null, adminMessage=false, replyMessages=[], parentMessage=Message{id=-1, nickname='null', email='null', content='null', avatar='null', createTime=null, parentMessageId=null, adminMessage=false, replyMessages=[], parentMessage=null, parentNickname='null'}, parentNickname='null'}, org.apache.catalina.session.StandardSessionFacade@91623c0, {message=Message{id=null, nickname='江七', email='1947838910@qq.com', content='案说法', avatar='null', createTime=null, parentMessageId=null, adminMessage=false, replyMessages=[], parentMessage=Message{id=-1, nickname='null', email='null', content='null', avatar='null', createTime=null, parentMessageId=null, adminMessage=false, replyMessages=[], parentMessage=null, parentNickname='null'}, parentNickname='null'}, org.springframework.validation.BindingResult.message=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]}
+2021-04-27 22:18:21.144 ERROR 4032 --- [http-nio-8080-exec-6] c.j.hander.ControllerExceptionHandler    : Requst URL : http://127.0.0.1:8080/message，Exception : {}
+
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'admin_message' in 'field list'
+### The error may exist in file [F:\IDEA_Workspace\mybatis-blog\target\classes\mapper\MessageDao.xml]
+### The error may involve com.jiangqi.dao.MessageDao.saveMessage-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_message (nickname,email,content,avatar,create_time,parent_message_id,admin_message)         values (?,?,?,?,?,?,?);
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'admin_message' in 'field list'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'admin_message' in 'field list'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:239)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at com.sun.proxy.$Proxy73.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:152)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at com.sun.proxy.$Proxy81.saveMessage(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy82.saveMessage(Unknown Source)
+	at com.jiangqi.service.impl.MessageServiceImpl.saveMessage(MessageServiceImpl.java:96)
+	at com.jiangqi.controller.MessageController.post(MessageController.java:60)
+	at com.jiangqi.controller.MessageController$$FastClassBySpringCGLIB$$6bd1e5d9.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at com.jiangqi.controller.MessageController$$EnhancerBySpringCGLIB$$5e9026b8.post(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.SQLSyntaxErrorException: Unknown column 'admin_message' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:63)
+	at com.sun.proxy.$Proxy110.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 88 common frames omitted
+
+2021-04-27 22:18:21.145  WARN 4032 --- [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'admin_message' in 'field list'
+### The error may exist in file [F:\IDEA_Workspace\mybatis-blog\target\classes\mapper\MessageDao.xml]
+### The error may involve com.jiangqi.dao.MessageDao.saveMessage-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_message (nickname,email,content,avatar,create_time,parent_message_id,admin_message)         values (?,?,?,?,?,?,?);
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'admin_message' in 'field list'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'admin_message' in 'field list']
+2021-04-27 22:19:13.873  INFO 4032 --- [http-nio-8080-exec-10] com.jiangqi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/message', ip='127.0.0.1', classMethod='com.jiangqi.controller.MessageController.post', args=[Message{id=null, nickname='jiangqi', email='1947838910@qq.com', content='sdgf', avatar='null', createTime=null, parentMessageId=null, adminMessage=false, replyMessages=[], parentMessage=Message{id=-1, nickname='null', email='null', content='null', avatar='null', createTime=null, parentMessageId=null, adminMessage=false, replyMessages=[], parentMessage=null, parentNickname='null'}, parentNickname='null'}, org.apache.catalina.session.StandardSessionFacade@91623c0, {message=Message{id=null, nickname='jiangqi', email='1947838910@qq.com', content='sdgf', avatar='null', createTime=null, parentMessageId=null, adminMessage=false, replyMessages=[], parentMessage=Message{id=-1, nickname='null', email='null', content='null', avatar='null', createTime=null, parentMessageId=null, adminMessage=false, replyMessages=[], parentMessage=null, parentNickname='null'}, parentNickname='null'}, org.springframework.validation.BindingResult.message=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]}
+2021-04-27 22:19:13.875 ERROR 4032 --- [http-nio-8080-exec-10] c.j.hander.ControllerExceptionHandler    : Requst URL : http://127.0.0.1:8080/message，Exception : {}
+
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'admin_message' in 'field list'
+### The error may exist in file [F:\IDEA_Workspace\mybatis-blog\target\classes\mapper\MessageDao.xml]
+### The error may involve com.jiangqi.dao.MessageDao.saveMessage-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_message (nickname,email,content,avatar,create_time,parent_message_id,admin_message)         values (?,?,?,?,?,?,?);
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'admin_message' in 'field list'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'admin_message' in 'field list'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:239)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at com.sun.proxy.$Proxy73.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:152)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at com.sun.proxy.$Proxy81.saveMessage(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy82.saveMessage(Unknown Source)
+	at com.jiangqi.service.impl.MessageServiceImpl.saveMessage(MessageServiceImpl.java:96)
+	at com.jiangqi.controller.MessageController.post(MessageController.java:60)
+	at com.jiangqi.controller.MessageController$$FastClassBySpringCGLIB$$6bd1e5d9.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at com.jiangqi.controller.MessageController$$EnhancerBySpringCGLIB$$5e9026b8.post(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.SQLSyntaxErrorException: Unknown column 'admin_message' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:63)
+	at com.sun.proxy.$Proxy110.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 88 common frames omitted
+
+2021-04-27 22:19:13.876  WARN 4032 --- [http-nio-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'admin_message' in 'field list'
+### The error may exist in file [F:\IDEA_Workspace\mybatis-blog\target\classes\mapper\MessageDao.xml]
+### The error may involve com.jiangqi.dao.MessageDao.saveMessage-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_message (nickname,email,content,avatar,create_time,parent_message_id,admin_message)         values (?,?,?,?,?,?,?);
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'admin_message' in 'field list'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'admin_message' in 'field list']
+2021-04-27 22:19:56.697  INFO 1296 --- [restartedMain] com.jiangqi.MybatisBlogApplication       : Starting MybatisBlogApplication using Java 1.8.0_251 on jiangqi with PID 1296 (F:\IDEA_Workspace\mybatis-blog\target\classes started by 江七 in F:\IDEA_Workspace\mybatis-blog)
+2021-04-27 22:19:56.699  INFO 1296 --- [restartedMain] com.jiangqi.MybatisBlogApplication       : The following profiles are active: dev
+2021-04-27 22:19:56.754  INFO 1296 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-27 22:19:56.755  INFO 1296 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-27 22:19:57.842  INFO 1296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-27 22:19:57.848  INFO 1296 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-27 22:19:57.849  INFO 1296 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-27 22:19:57.850  INFO 1296 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2021-04-27 22:19:57.850  INFO 1296 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-04-27 22:19:57.850  INFO 1296 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-04-27 22:19:57.853  INFO 1296 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-04-27 22:19:57.908  INFO 1296 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-27 22:19:57.908  INFO 1296 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1152 ms
+2021-04-27 22:19:58.540  INFO 1296 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-27 22:19:58.645  INFO 1296 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-04-27 22:19:58.937  INFO 1296 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-27 22:19:58.964  INFO 1296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-27 22:19:58.973  INFO 1296 --- [restartedMain] com.jiangqi.MybatisBlogApplication       : Started MybatisBlogApplication in 2.836 seconds (JVM running for 3.709)
+2021-04-27 22:20:03.939  INFO 1296 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-27 22:20:03.939  INFO 1296 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-27 22:20:03.941  INFO 1296 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-04-27 22:20:03.968  INFO 1296 --- [http-nio-8080-exec-1] com.jiangqi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.jiangqi.controller.IndexController.index', args=[{}, 1, {}]}
+2021-04-27 22:20:03.986  INFO 1296 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-27 22:20:04.121  INFO 1296 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-27 22:20:04.190  INFO 1296 --- [http-nio-8080-exec-1] com.jiangqi.aspect.LogAspect             : Result : index
+2021-04-27 22:20:24.949  INFO 1296 --- [http-nio-8080-exec-2] com.jiangqi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/footer/blogmessage', ip='127.0.0.1', classMethod='com.jiangqi.controller.IndexController.blogMessage', args=[{}]}
+2021-04-27 22:20:24.955  INFO 1296 --- [http-nio-8080-exec-2] com.jiangqi.aspect.LogAspect             : Result : index :: blogMessage
+2021-04-27 22:20:30.501  INFO 1296 --- [http-nio-8080-exec-6] com.jiangqi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/message', ip='127.0.0.1', classMethod='com.jiangqi.controller.MessageController.message', args=[]}
+2021-04-27 22:20:30.505  INFO 1296 --- [http-nio-8080-exec-6] com.jiangqi.aspect.LogAspect             : Result : message
+2021-04-27 22:20:51.574  INFO 1296 --- [http-nio-8080-exec-1] com.jiangqi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/footer/blogmessage', ip='127.0.0.1', classMethod='com.jiangqi.controller.IndexController.blogMessage', args=[{}]}
+2021-04-27 22:20:51.582  INFO 1296 --- [http-nio-8080-exec-1] com.jiangqi.aspect.LogAspect             : Result : index :: blogMessage
+2021-04-27 22:20:51.598  INFO 1296 --- [http-nio-8080-exec-8] com.jiangqi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/messagecomment', ip='127.0.0.1', classMethod='com.jiangqi.controller.MessageController.messages', args=[{}]}
+2021-04-27 22:20:51.604  INFO 1296 --- [http-nio-8080-exec-8] com.jiangqi.aspect.LogAspect             : Result : message::messageList
+2021-04-27 22:21:38.604  INFO 1296 --- [http-nio-8080-exec-3] com.jiangqi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/about', ip='127.0.0.1', classMethod='com.jiangqi.controller.AboutShowController.about', args=[]}
+2021-04-27 22:21:38.606  INFO 1296 --- [http-nio-8080-exec-3] com.jiangqi.aspect.LogAspect             : Result : about
+2021-04-27 22:21:59.731  INFO 1296 --- [http-nio-8080-exec-4] com.jiangqi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/footer/blogmessage', ip='127.0.0.1', classMethod='com.jiangqi.controller.IndexController.blogMessage', args=[{}]}
+2021-04-27 22:21:59.740  INFO 1296 --- [http-nio-8080-exec-4] com.jiangqi.aspect.LogAspect             : Result : index :: blogMessage
+2021-04-27 22:23:16.863  INFO 1296 --- [http-nio-8080-exec-8] com.jiangqi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/about', ip='127.0.0.1', classMethod='com.jiangqi.controller.AboutShowController.about', args=[]}
+2021-04-27 22:23:16.864  INFO 1296 --- [http-nio-8080-exec-8] com.jiangqi.aspect.LogAspect             : Result : about
+2021-04-27 22:23:37.935  INFO 1296 --- [http-nio-8080-exec-7] com.jiangqi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/footer/blogmessage', ip='127.0.0.1', classMethod='com.jiangqi.controller.IndexController.blogMessage', args=[{}]}
+2021-04-27 22:23:37.945  INFO 1296 --- [http-nio-8080-exec-7] com.jiangqi.aspect.LogAspect             : Result : index :: blogMessage
+2021-04-27 22:23:52.277  INFO 1296 --- [http-nio-8080-exec-6] com.jiangqi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.jiangqi.controller.IndexController.index', args=[{}, 1, {}]}
+2021-04-27 22:23:52.286  INFO 1296 --- [http-nio-8080-exec-6] com.jiangqi.aspect.LogAspect             : Result : index
+2021-04-27 22:24:10.019  INFO 1296 --- [http-nio-8080-exec-7] com.jiangqi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.jiangqi.controller.ArchiveShowController.archive', args=[{}]}
+2021-04-27 22:24:10.025  INFO 1296 --- [http-nio-8080-exec-7] com.jiangqi.aspect.LogAspect             : Result : archives
+2021-04-27 22:24:10.150  INFO 1296 --- [http-nio-8080-exec-3] com.jiangqi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/footer/blogmessage', ip='127.0.0.1', classMethod='com.jiangqi.controller.IndexController.blogMessage', args=[{}]}
+2021-04-27 22:24:10.157  INFO 1296 --- [http-nio-8080-exec-3] com.jiangqi.aspect.LogAspect             : Result : index :: blogMessage
+2021-04-27 22:24:13.443  INFO 1296 --- [http-nio-8080-exec-9] com.jiangqi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/footer/blogmessage', ip='127.0.0.1', classMethod='com.jiangqi.controller.IndexController.blogMessage', args=[{}]}
+2021-04-27 22:24:13.450  INFO 1296 --- [http-nio-8080-exec-9] com.jiangqi.aspect.LogAspect             : Result : index :: blogMessage
+2021-04-27 22:24:43.592  INFO 1296 --- [http-nio-8080-exec-6] com.jiangqi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.jiangqi.controller.ArchiveShowController.archive', args=[{}]}
+2021-04-27 22:24:43.594  INFO 1296 --- [http-nio-8080-exec-6] com.jiangqi.aspect.LogAspect             : Result : archives
+2021-04-27 22:24:43.665  INFO 1296 --- [http-nio-8080-exec-7] com.jiangqi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/footer/blogmessage', ip='127.0.0.1', classMethod='com.jiangqi.controller.IndexController.blogMessage', args=[{}]}
+2021-04-27 22:24:43.674  INFO 1296 --- [http-nio-8080-exec-7] com.jiangqi.aspect.LogAspect             : Result : index :: blogMessage
+2021-04-27 22:24:46.377  INFO 1296 --- [http-nio-8080-exec-8] com.jiangqi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.jiangqi.controller.IndexController.index', args=[{}, 1, {}]}
+2021-04-27 22:24:46.384  INFO 1296 --- [http-nio-8080-exec-8] com.jiangqi.aspect.LogAspect             : Result : index
+2021-04-27 22:24:46.478  INFO 1296 --- [http-nio-8080-exec-10] com.jiangqi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/footer/blogmessage', ip='127.0.0.1', classMethod='com.jiangqi.controller.IndexController.blogMessage', args=[{}]}
+2021-04-27 22:24:46.486  INFO 1296 --- [http-nio-8080-exec-10] com.jiangqi.aspect.LogAspect             : Result : index :: blogMessage
+2021-04-27 22:24:48.351  INFO 1296 --- [http-nio-8080-exec-9] com.jiangqi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.jiangqi.controller.IndexController.index', args=[{}, 1, {}]}
+2021-04-27 22:24:48.363  INFO 1296 --- [http-nio-8080-exec-9] com.jiangqi.aspect.LogAspect             : Result : index
+2021-04-27 22:24:48.725  INFO 1296 --- [http-nio-8080-exec-2] com.jiangqi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/footer/blogmessage', ip='127.0.0.1', classMethod='com.jiangqi.controller.IndexController.blogMessage', args=[{}]}
+2021-04-27 22:24:48.732  INFO 1296 --- [http-nio-8080-exec-2] com.jiangqi.aspect.LogAspect             : Result : index :: blogMessage
+2021-04-27 22:24:55.132  INFO 1296 --- [http-nio-8080-exec-4] com.jiangqi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/blog/3', ip='127.0.0.1', classMethod='com.jiangqi.controller.IndexController.blog', args=[3, {}]}
+2021-04-27 22:24:55.181  INFO 1296 --- [http-nio-8080-exec-4] com.jiangqi.aspect.LogAspect             : Result : blog
+2021-04-27 22:24:55.565  INFO 1296 --- [http-nio-8080-exec-5] com.jiangqi.aspect.LogAspect             : Request : {url='http://127.0.0.1:8080/footer/blogmessage', ip='127.0.0.1', classMethod='com.jiangqi.controller.IndexController.blogMessage', args=[{}]}
+2021-04-27 22:24:55.570  INFO 1296 --- [http-nio-8080-exec-5] com.jiangqi.aspect.LogAspect             : Result : index :: blogMessage
